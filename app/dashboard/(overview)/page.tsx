@@ -1,16 +1,16 @@
 // import { Card } from "@/app/ui/dashboard/cards";
-import CardWrapper from "@/app/ui/dashboard/cards";
-import RevenueChart from "@/app/ui/dashboard/revenue-chart";
-import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
-import { lusitana } from "@/app/ui/fonts";
+import CardWrapper from "@/ui/dashboard/cards";
+import RevenueChart from "@/ui/dashboard/revenue-chart";
+import LatestInvoices from "@/ui/dashboard/latest-invoices";
+import { lusitana } from "@/ui/fonts";
 // import { fetchRevenue,fetchLatestInvoices,fetchCardData } from "@/app/lib/data";
-import { fetchCardData } from "@/app/lib/data";
+import { fetchCardData } from "@/app/_lib/data";
 import { Suspense } from "react";
 import {
   RevenueChartSkeleton,
   LatestInvoicesSkeleton,
   CardsSkeleton,
-} from "@/app/ui/skeletons";
+} from "@/ui/skeletons";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

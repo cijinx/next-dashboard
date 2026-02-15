@@ -20,7 +20,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/ui/*": ["app/_ui/*"],
+      "@/lib/*": ["app/_lib/*"],
     }
   },
   "include": [
@@ -28,7 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/lib/placeholder-data.ts",
+    "app/_lib/placeholder-data.ts",
     "scripts/seed.js",
     ".next/dev/types/**/*.ts"
   ],
